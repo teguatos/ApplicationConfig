@@ -1,6 +1,11 @@
 server:
   port: 8081
-
+  
+grcp:
+  client:
+    greeting:
+      adress: static://localhost:8000
+      negotiation-type: plaintext
 spring:
   datasource:
     driverClassName: org.h2.Driver
