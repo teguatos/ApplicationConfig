@@ -4,7 +4,7 @@ server:
 grpc: 
   client:
     customer-service:
-      # address: static://localhost:8083
+      address: static://localhost:9090
       enableKeepAlive: true
       keepAliveWithoutCalls: true
       negotiationType: plaintext
